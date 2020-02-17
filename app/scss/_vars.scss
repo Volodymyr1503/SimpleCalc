@@ -1,0 +1,27 @@
+* {
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+th {
+	border: black;
+}
+td input {
+	width: 130px;
+	padding: 2px 3px;
+}
+.radio-buttons {
+	display: flex;
+	flex-wrap: wrap;
+}
+.math {
+	border: 2px solid black;
+	padding: 3px 12px;
+}
+.math:first-child {
+	margin-right: 20px;
+}
+
+tr.background-row {
+	background-color: #09E110;
+}
